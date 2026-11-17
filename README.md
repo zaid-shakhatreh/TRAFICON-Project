@@ -39,9 +39,10 @@ from the business rules and the database.
 1. Install Visual Studio and SQL Server.
 2. Clone the repository:
    `git clone https://github.com/zaid-shakhatreh/TRAFICON-Project.git`
-3. In SSMS, create an empty database named `DVLD`, then open `TRAFICON.sql` and run it to create the tables and data.
-4. Open `App.config` and update the connection string with your server name (keep `Database=DVLD`).
-5. Open the `.sln` file in Visual Studio and press **F5**.
+   (If you download the ZIP instead, right-click the ZIP → Properties → check **Unblock** before extracting.)
+3. In SSMS, create an empty database named `DVLD`, select it in the toolbar dropdown, then open `TRAFICON.sql` and run it to create the tables and data.
+4. Open `TRAFICON_DataAccess/clsDataAccessWithDB.cs` and set `Server` in `DBconnnection` to your SQL Server name (e.g. `.` or `.\SQLEXPRESS`). The project uses Windows Authentication and the database name `DVLD`.
+5. Open `TRAFICON/TRAFICON.sln` in Visual Studio and press **F5**.
 
 Default login: `zezenio05` / `2005`
 
