@@ -44,7 +44,7 @@ from the business rules and the database.
 4. Open `TRAFICON_DataAccess/clsDataAccessWithDB.cs` and set `Server` in `DBconnnection` to your SQL Server name (e.g. `.` or `.\SQLEXPRESS`). The project uses Windows Authentication and the database name `DVLD`.
 5. Open `TRAFICON/TRAFICON.sln` in Visual Studio and press **F5**.
 
-Default login: `zezenio05` / `2005`
+Default login: `zezenio05` / `1234`
 
 ## What I Learned
 - Applying OOP and 3-tier architecture in a real project
